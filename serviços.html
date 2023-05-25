@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonte da estrela-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/css3.css">
+    <title>Serviços</title>
+</head>
+<body>
+    <header style="background-image: url('mg/serviços.jpg');"> <!--Colocando imagem de fundo-->
+
+        <div class="Container"> <!--Container serve para delimitar a distância da esquerda e direita-->
+        <nav> <!--Nav serve para adicionar links, a tag ul serve para fazer as listas, ja a tag A serve para links-->
+            <a href="index.html">
+                <img src="mg/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul class="ul">
+                <a href="index.html">Home</a>
+                <a href="Sobre.html">Sobre</a>
+                <a href="Serviços.html">Serviços</a>
+                <a class="btn" href="Contato.html">Contato</a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa fa-times-circle"></i>
+                </div>   
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Serviços</h1>
+                 </div>
+
+        </section>
+        </div>
+    </header>
+    <section class="servicos">
+        <div class="container">
+            <h3>Nossos Serviços</h3>
+            <p>Conheça os nossos melhores serviços</p>
+            <!--cards 1-->
+            <div class="rows-cards"o>
+                <div class="row-card-item">
+                    <img src="mg/nuvem.webp" alt="">
+                    <p class="nome-servico"><strong>Serviço em nuvem</strong></p>
+                <p class="descricao-servico">
+                    Os serviços de nuvem consistem em infraestrutura, plataformas ou software hospedados por fornecedores terceirizados e disponibilizados aos usuários via Internet. 
+Eles viabilizam o fluxo de dados de usuários de clientes de front-end (por exemplo, servidores, tablets, computadores, laptops e qualquer outro hardware utilizado por usuários) para os sistemas de provedores e vice-versa pela Internet. Os serviços de nuvem promovem a criação de aplicações nativas em nuvem e a flexibilidade de trabalhar na nuvem. Os usuários podem acessar os serviços de nuvem usando apenas um computador com sistema operacional e conexão com a Internet.
+                </p>
+                </div>
+                <!--Card 2-->
+                <div class="row-card-item">
+                    <img src="mg/marketing.jpg" alt="">
+                    <p class="nome-servico"><strong>Marketing Digital</strong></p>
+                <p class="descricao-servico">
+                    Marketing Digital é o conjunto de estratégias voltadas para a promoção de uma marca no ambiente online, sempre com o objetivo de promover empresas e produtos. Com isso, as marcas podem fazer uso de diferentes canais digitais e métodos que permitem a análise dos resultados em tempo real.</p>
+                </div>
+                <!--Card 3-->
+                <div class="row-card-item">
+                    <img src="mg/seo.jpg" alt="">
+                    <p class="nome-servico"><strong>SEO</strong></p>
+                <p class="descricao-servico">
+                    SEO é a sigla de Search Engine Optimization (otimização de mecanismos de busca) e é o conjunto de técnicas usadas, geralmente divididas entre tecnologia, conteúdo e autoridade, para alcançar bom posicionamento de páginas de um site no Google e em outros buscadores, gerando tráfego orgânico.</p>
+                </div>
+                <!--Card 4-->
+                <div class="row-card-item">
+                    <img src="mg/loja virtual.jpg" alt="">
+                    <p class="nome-servico"><strong>Criação de Lojas Virtuais</strong></p>
+                <p class="descricao-servico">
+                    Loja virtual é um site próprio criado exclusivamente para as vendas online. Nele, o vendedor expõe seus produtos e/ou serviços com fotos e descrições detalhadas. Além disso, o layout pode ser ajustado de acordo com a paleta de cores da marca.
+                    Outro ponto importante que diferencia uma loja online dos outros tipos de site é que, nela, há integração com meios de pagamento e de envio. Desse modo, o cliente que compra por esse e-commerce pode pagar facilmente pela internet e, ao digitar seu CEP, já sabe qual será o custo do frete para receber a encomenda.</p>
+
+               </div>
+                <!--Card 5-->
+                <div class="row-card-item">
+                    <img src="mg/identidade visual.jpg" alt="">
+                    <p class="nome-servico"><strong>Identidade Visual & Design</strong></p>
+                <p class="descricao-servico">
+                    Identidade visual é o conjunto de vários elementos gráficos e visuais que comunicam alguma mensagem. Ainda que de forma indireta, ela pode expressar os valores da marca, sua personalidade e nicho de atuação.</p>
+                </div>
+                <!--Card 6-->
+                <div class="row-card-item">
+                    <img src="mg/criação de conteudo.png" alt="">
+                    <p class="nome-servico"><strong>Criação de conteúdo</strong></p>
+                <p class="descricao-servico">
+                    A criação de conteúdo é uma estratégia de marketing que tem o objetivo de atrair consumidores através de materiais relevantes que sejam úteis para um determinado público-alvo. O foco não é ir até o cliente, mas deixar que o cliente venha até você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim de serviço -card-->
+    <!--Dados itens-->
+    <section class="dados">
+        <div class="container">
+            <div class="dados-item">
+                <img src="mg/nuvem.webp" alt="">
+                <p>
+                    <strong>+360</strong> <br>
+                    Projetos concluidos
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="mg/marketing.jpg" alt="">
+                <p>
+                    <strong>+890</strong> <br>
+                    Clientes satisfeitos
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="mg/seo.jpg" alt="">
+                <p>
+                    <strong>+4303</strong> <br>
+                    Jornada de trabalho
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="mg/loja virtual.jpg" alt="">
+                <p>
+                    <strong>+254</strong> <br>
+                    Publicidade paga
+                </p>
+            </div>
+           </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+              <a href="#"> <i class="fa fa-facebook"></i> </a>
+              <a href="#"> <i class="fa fa-facebook"></i> </a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <p>Desenvolvido por Jéssica Porfirio</p>
+        </div>
+    </footer>
+<script src="JS/men.js"></script>
+</body>
+</html>
